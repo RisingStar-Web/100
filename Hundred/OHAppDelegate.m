@@ -1,18 +1,19 @@
 //
 //  OHAppDelegate.m
-//  Hundred
+//  OneHundred
 //
-//  Created by Вадим on 22.08.14.
-//  Copyright (c) 2014 ___FULLUSERNAME___. All rights reserved.
+//  Created by Вадим on 12.07.14.
+//  Copyright (c) 2014 Вадим. All rights reserved.
 //
 
 #import "OHAppDelegate.h"
+#import "OHResouces.h"
 
 @implementation OHAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [OHResouces loadToMemory];
     return YES;
 }
 							

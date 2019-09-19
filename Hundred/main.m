@@ -1,9 +1,9 @@
 //
 //  main.m
-//  Hundred
+//  OneHundred
 //
-//  Created by Вадим on 22.08.14.
-//  Copyright (c) 2014 ___FULLUSERNAME___. All rights reserved.
+//  Created by Вадим on 12.07.14.
+//  Copyright (c) 2014 Вадим. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

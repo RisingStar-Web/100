@@ -1,0 +1,24 @@
+/* Localized versions of Info.plist keys */
+
+"6digitsDesck" = "Gain 100 points, using the 6-digits";
+"3digitsDesck" = "Equating the two numbers,\n not exceeding one million";
+"GameWin" = "You win";
+"GameOver" = "You lose";
+"TopSetting" = "Settings";
+"Top" = "Scores";
+"6digits" = "6-digit";
+"3digits" = "3 digits";
+"DigitsReplaceDesck" = "Used digit replaced by other";
+"TimerOnOFf" = "A timed game";
+"Function" = "Game options";
+"DigitsReplace" = "Replace";
+"TopNoRep" = "Do not replace";
+"BackGame" = "Game";
+"SetAudio" = "Sound";
+"pleas" = "Please rate the app";
+"like" = "Like";
+"nolike" = "Don't like";
+"later" = "Remind me later";
+"iAd" = "Switching off ads for";
+
+"TopRep" = "Replace";

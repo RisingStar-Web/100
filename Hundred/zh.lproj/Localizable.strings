@@ -1,0 +1,24 @@
+/* Localized versions of Info.plist keys */
+
+"6digitsDesck" = "利用6个数字通过简单数学运算获得100的数值";
+"3digitsDesck" = "利用两组数里的数字通过简单数学运算计算出两个相等的数，\n利用每组数字所计算出的数值不许超过1000000";
+"GameWin" = "您赢了。";
+"GameOver" = "您输了。";
+"TopSetting" = "设置";
+"Top" = "游戏者的计分";
+"6digits" = "6个数字";
+"3digits" = "3个数字";
+"DigitsReplaceDesck" = "所用过的数字将用另一个数字替换。";
+"TimerOnOFf" = "计时";
+"Function" = "功能";
+"DigitsReplace" = "能替换数字";
+"TopNoRep" = "不能替换数字";
+"BackGame" = "返回游戏页面";
+"SetAudio" = "声音";
+"pleas" = "请率的应用程序";
+"like" = "就像";
+"nolike" = "不喜欢";
+"later" = "晚点提醒我跟你说";
+"iAd" = "支付卢布免广告";
+
+"TopRep" = "能替换数字";

@@ -1,29 +1,33 @@
 //
 //  OHViewController.m
-//  Hundred
+//  OneHundred
 //
-//  Created by Вадим on 22.08.14.
-//  Copyright (c) 2014 ___FULLUSERNAME___. All rights reserved.
+//  Created by Вадим on 12.07.14.
+//  Copyright (c) 2014 Вадим. All rights reserved.
 //
 
 #import "OHViewController.h"
+
 
 @interface OHViewController ()
 
 @end
 
+
 @implementation OHViewController
+
+@synthesize resours;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [self setResours:[[OHResouces alloc] init]];
+    [[UIApplication sharedApplication] setStatusBarHidden:NO];
+    [self.navigationController.navigationBar setHidden:NO];
+    [self.navigationController.navigationBar setOpaque:NO];
+    CGRect _tmpRect = self.navigationController.navigationBar.frame;
+    _tmpRect.origin.y = 20.0f;
+    [self.navigationController.navigationBar setFrame:_tmpRect];
 }
 
 @end
